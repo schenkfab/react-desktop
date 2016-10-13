@@ -82,7 +82,7 @@
     "test": "./node_modules/.bin/mocha test",
     "eslint": "./node_modules/.bin/eslint ./src ./test",
     "demo": "babel src -d lib",
-    "build:src": "./node_modules/.bin/babel --presets=es2015,stage-0,react --plugins=transform-decorators-legacy src -d build",
+    "build:src": "./node_modules/.bin/babel --presets=es2015,stage-0,react --plugins=transform-decorators-legacy src -d src",
     "build:index": "./node_modules/.bin/babel --presets=es2015,stage-0,react --plugins=transform-decorators-legacy ./index.js --out-file ./index.js",
     "build:mac": "./node_modules/.bin/babel --presets=es2015,stage-0,react --plugins=transform-decorators-legacy ./macOs.js --out-file ./macOs.js",
     "build:win": "./node_modules/.bin/babel --presets=es2015,stage-0,react --plugins=transform-decorators-legacy ./windows.js --out-file ./windows.js",
