@@ -19,6 +19,7 @@ export { default as SegmentedControl } from './src/segmentedControl/macOs/segmen
 export { default as SegmentedControlItem } from './src/segmentedControl/macOs/item/item';
 export { default as Text } from './src/text/macOs/text';
 export { default as TextInput } from './src/textInput/macOs/textInput';
+export { default as NumberInput } from './src/numberInput/macOs/numberInput';
 export { default as TitleBar } from './src/titleBar/macOs/titleBar';
 export { default as Toolbar } from './src/toolbar/macOs/toolbar';
 export { default as ToolbarNav } from './src/toolbar/macOs/nav/nav';
